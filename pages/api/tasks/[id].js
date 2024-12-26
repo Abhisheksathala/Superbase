@@ -1,4 +1,4 @@
-import supabase from '../../../utils/superbaseClient.js';
+import supabase from '../../../utils/superbaseClient.jsx';
 
 // Get a specific task by id
 export const getTaskById = async (req, res) => {
