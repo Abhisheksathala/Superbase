@@ -3,7 +3,7 @@ import { useState } from 'react';
 import supabase from '../../utils/superbaseClient';
 
 const TaskItem = ({ task, fetchTasks }) => {
-  const [loading, setLoading] = useState(false); // Handle loading state for async operations
+  const [loading, setLoading] = useState(false); 
 
   const handleDelete = async () => {
     setLoading(true); // Set loading state before starting deletion
